@@ -1,0 +1,27 @@
+
+Configurando ambiente 
+Passos:
+
+ npm init -y
+
+ npm i -D typescript
+
+ npx tsc --init
+
+ npm i -D jest ts-jest
+
+ npm i -D ts-node-dev
+
+ npm i --save-dev @types/jest
+
+ ---
+ npx ts-jest config:init
+
+ configurar tsconfig
+ "outDir": "dist"
+
+ {
+    "include":[
+        "src/**/*"
+    ]
+ }
