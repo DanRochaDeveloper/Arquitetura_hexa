@@ -17,6 +17,11 @@ Passos:
  ---
  npx ts-jest config:init
 
+ npm i  bcrypt
+ npm i  -D @types/bcrypt
+ npm i knex pg
+ npm i uuid
+
  configurar tsconfig
  "outDir": "dist"
 
@@ -24,4 +29,7 @@ Passos:
     "include":[
         "src/**/*"
     ]
- }
+ },
+
+ allowJs: true
+
